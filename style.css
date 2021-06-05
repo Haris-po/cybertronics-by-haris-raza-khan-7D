@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width:  100%;
+    background-image: url('images/landing_page.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.nav-links ul li a:hover{
+    font-size:14px;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 17px;
+    font-style: bold;
+    color:rgba(233, 240, 231, 0.87);
+
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 8px 34px;
+    font-size: 15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+.hero-btn:hover{
+    border: 1px solid #fff;
+    background: hsl(120, 60%, 34%);
+    transition: 1s;
+}
+
+nav .fa{
+    display: none;
+}
+
+/*---- eco-friendly and sustainable products info-----*/
+
+.info{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h2{
+    color: rgb(37, 85, 27);
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p{
+    color: hsl(120, 60%, 34%);
+    font-size: 15px;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.home_row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home_column{
+    flex-basis: 31%;
+    background: hsl(98, 69%, 72%);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+     transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: rgb(26, 58, 21);
+}
+
+.home_column:hover{
+    box-shadow: 0 0 20px 0px rgba(14, 12, 12, 0.2);
+}
+
+
+/*------ go-green ------*/
+
+.go-green{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.column{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.column img{
+    width: 100%
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    transition: 0.5%;
+}
+.layer:hover{
+    background: rgba(33, 75, 43, 0.7);
+}
+
+.layer h4{
+    text-align: center;
+    font-weight: 600;
+    font-size: 26px;
+    margin: 10px 0;
+    color: rgba(252, 255, 251,0);
+    transition: 0.5s;
+}
+.layer:hover h4{
+    color: rgb(252, 255, 251);
+}
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image: url(images/contact-us.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h3{
+    color: rgb(160, 197, 100);
+    font-size: 32px;
+    margin-bottom: 40px;
+    padding: 0;
+    text-shadow: -1px 1px 0 rgb(248, 243, 243),
+                          1px 1px 0 rgb(241, 238, 238),
+                         1px -1px 0 rgb(253, 249, 249),
+                        -1px -1px 0 rgb(243, 232, 232);
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.icons .fa{
+    color: hsl(120, 21%, 21%);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.fa-heart-o{
+    color: hsl(120, 21%, 21%);;
+}
