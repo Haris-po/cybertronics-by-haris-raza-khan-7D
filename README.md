@@ -1,5 +1,5 @@
 # cybertronics-by-haris-raza-khan-7D
-cybertronics project my haris razaa khan
+cybertronics project my haris raza khan
 
 Project description:-
 A website which aims at spreading awarerness regarding eco-friendly and sustainable products.
